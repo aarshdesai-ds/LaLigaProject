@@ -166,28 +166,29 @@ Cross-model residual correlations reveal whether modelling errors are shared (sy
 LaLigaProject/
 │
 ├── La Liga Project.ipynb       # Main analysis notebook
+├── README.md
 │
-├── La Liga 2015-16.csv         # Match-level data by season
-├── La Liga 2016-17.csv
-├── La Liga 2017-18.csv
-├── La Liga 2018-19.csv
-├── La Liga 2019-20.csv
-├── La Liga 2020-21.csv
-├── La Liga 2021-22.csv
-├── La Liga 2022-23.csv
-├── La Liga 2023-24.csv
+├── Team_Data/                  # Match-level data by season + squad valuations
+│   ├── La Liga 2015-16.csv
+│   ├── La Liga 2016-17.csv
+│   ├── La Liga 2017-18.csv
+│   ├── La Liga 2018-19.csv
+│   ├── La Liga 2019-20.csv
+│   ├── La Liga 2020-21.csv
+│   ├── La Liga 2021-22.csv
+│   ├── La Liga 2022-23.csv
+│   ├── La Liga 2023-24.csv
+│   └── teams.csv
 │
-├── XG 2015-16.csv              # Expected Goals season summaries
-├── XG 2016-17.csv
-├── XG 2017-18.csv
-├── XG 2018-19.csv
-├── XG 2019-20.csv
-├── XG 2020-21.csv
-├── XG 2021-22.csv
-├── XG 2022-23.csv
-│
-├── teams.csv                   # Squad valuations (multi-league)
-└── README.md
+└── XG_Data/                    # Expected Goals season summaries
+    ├── XG 2015-16.csv
+    ├── XG 2016-17.csv
+    ├── XG 2017-18.csv
+    ├── XG 2018-19.csv
+    ├── XG 2019-20.csv
+    ├── XG 2020-21.csv
+    ├── XG 2021-22.csv
+    └── XG 2022-23.csv
 ```
 
 ---
